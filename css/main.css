@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 1px 4px #d1d1d1;
+}
+.nav .name {
+  color: #00a2ff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.app {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.app .item {
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: 0px 3px 8px #E5E5E5;
+  background-color: white;
+}
+.app .item .answers {
+  margin-top: 10px;
+}
+.app .item .answers .answer {
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.app .item .answers .answer input[type=radio]:checked + label {
+  color: blue;
+}
+.app .item .answers .answer label {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.app .item .answers .answer input[type=radio] {
+  cursor: pointer;
+}
+.app .submit {
+  order: 10;
+  margin: 0 auto;
+  line-height: 1;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 30px;
+  background-color: #00a2ff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
